@@ -1,4 +1,4 @@
-package com.mozhimen.opencvkit
+package com.mozhimen.opencvk
 
 import org.junit.Test
 

@@ -1,18 +1,22 @@
-pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        google()
-        mavenCentral()
-    }
-}
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google()
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://www.jitpack.io' }
         mavenCentral()
+        google()
     }
 }
+
 rootProject.name = "OpenCVKit"
 include ':app'
-include ':opencv'
+include ':opencvk_base'
 include ':opencvk'
+include ':SwiftKit'
+project(':SwiftKit').projectDir = new File("C:\\Users\\mozhimen\\Documents\\GitHub\\SwiftKit")
+include ':SwiftKit:basick'
+include ':SwiftKit:uicorek'
+include ':SwiftKit:underlayk'
+include ':SwiftKit:componentk'

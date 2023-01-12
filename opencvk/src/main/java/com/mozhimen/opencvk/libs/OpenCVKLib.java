@@ -1,4 +1,4 @@
-package com.mozhimen.opencvk;
+package com.mozhimen.opencvk.libs;
 
 import android.util.Log;
 
@@ -11,7 +11,7 @@ import org.opencv.android.OpenCVLoader;
  * @Date 2022/6/4 11:15
  * @Version 1.0
  */
-public class OpenCVK {
+public class OpenCVKLib {
     private final static String TAG = "OpenCVK>>>>>";
 
     static {

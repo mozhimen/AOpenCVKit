@@ -10,10 +10,15 @@
         <option name="gradleJvm" value="11" />
         <option name="modules">
           <set>
+            <option value="$USER_HOME$/Documents/GitHub/SwiftKit" />
+            <option value="$USER_HOME$/Documents/GitHub/SwiftKit/basick" />
+            <option value="$USER_HOME$/Documents/GitHub/SwiftKit/componentk" />
+            <option value="$USER_HOME$/Documents/GitHub/SwiftKit/uicorek" />
+            <option value="$USER_HOME$/Documents/GitHub/SwiftKit/underlayk" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/opencv" />
             <option value="$PROJECT_DIR$/opencvk" />
+            <option value="$PROJECT_DIR$/opencvk_base" />
           </set>
         </option>
       </GradleProjectSettings>

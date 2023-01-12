@@ -1,0 +1,11 @@
+ext {
+    android = [
+            compileSdk           : 31,
+            applicationId        : "com.mozhimen.opencvk",
+            minSdk               : 21,
+            targetSdk            : 31,
+            versionCode          : 1,
+            versionName          : "1.0.0",
+            multiDexEnabled      : true
+    ]
+}
