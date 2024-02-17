@@ -5,14 +5,14 @@ plugins {
 }
 
 android {
-    compileSdk rootProject.android.compileSdk
+    compileSdk 33
 
     defaultConfig {
-        applicationId rootProject.android.applicationId
-        minSdk rootProject.android.minSdk
-        targetSdk rootProject.android.targetSdk
-        versionCode rootProject.android.versionCode
-        versionName rootProject.android.versionName
+        applicationId "com.mozhimen.opencvk.test"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0.0"
     }
 
     buildTypes {
@@ -31,12 +31,25 @@ android {
     buildFeatures {
         dataBinding true
     }
+    packagingOptions {
+        pickFirst 'lib/x86/libc++_shared.so'
+        pickFirst 'lib/x86_64/libc++_shared.so'
+        pickFirst 'lib/armeabi-v7a/libc++_shared.so'
+        pickFirst 'lib/arm64-v8a/libc++_shared.so'
+    }
 }
 
 dependencies {
     implementation project(":SwiftKit:basick")
-    implementation project(":SwiftKit:componentk")
     implementation project(":SwiftKit:uicorek")
+    implementation project(":AUICoreKit:viewk")
+    implementation project(":ACameraKit_CameraX:camerak_camerax")
+    implementation project(':opencvk')
+
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
-    implementation project(path: ':opencvk')
+
+    //test
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }

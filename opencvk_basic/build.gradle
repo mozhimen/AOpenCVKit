@@ -3,11 +3,12 @@ plugins {
 }
 
 android {
-    compileSdk rootProject.android.compileSdk
+    compileSdk 33
 
     defaultConfig {
-        minSdk rootProject.android.minSdk
-        targetSdk rootProject.android.targetSdk
+        minSdk 19
+        targetSdk 33
+        multiDexEnabled true
 
         consumerProguardFiles "consumer-rules.pro"
     }

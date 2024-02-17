@@ -4,19 +4,34 @@ dependencyResolutionManagement {
         maven { url 'https://maven.aliyun.com/repository/central' }
         maven { url 'https://maven.aliyun.com/repository/google' }
         maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://maven.aliyun.com/repository/grails-core' }
+        maven { url 'https://raw.githubusercontent.com/saki4510t/libcommon/master/repository/' }
+        maven { url 'https://gitee.com/liuchaoya/libcommon/raw/master/repository/' }
+        maven { url "https://repo.eclipse.org/content/repositories/paho-snapshots/" }
+        maven { url 'https://developer.huawei.com/repo/' }
+        maven { url "https://jitpack.io" }
         maven { url 'https://www.jitpack.io' }
         mavenCentral()
         google()
     }
 }
 
-rootProject.name = "OpenCVKit"
+rootProject.name = "AOpenCVKit"
 include ':app'
-include ':opencvk_base'
+include ':opencvk_basic'
 include ':opencvk'
+//SwiftKit
 include ':SwiftKit'
-project(':SwiftKit').projectDir = new File("C:\\Users\\mozhimen\\Documents\\GitHub\\SwiftKit")
+project(':SwiftKit').projectDir = new File("C:\\Users\\${System.getenv().get("USERNAME")}\\Documents\\GitHub\\SwiftKit")
 include ':SwiftKit:basick'
 include ':SwiftKit:uicorek'
-include ':SwiftKit:underlayk'
-include ':SwiftKit:componentk'
+//ACameraKit_CameraX
+include ':ACameraKit_CameraX'
+project(':ACameraKit_CameraX').projectDir = new File("D:\\WorkSpace\\GitHub\\ACameraKit_CameraX")
+include ':ACameraKit_CameraX:camerak_camerax'
+//AUICoreKit
+include ':AUICoreKit'
+project(':AUICoreKit').projectDir = new File("D:\\WorkSpace\\GitHub\\AUICoreKit")
+include ':AUICoreKit:viewk'

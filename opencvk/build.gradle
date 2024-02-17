@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    compileSdk rootProject.android.compileSdk
+    compileSdk 33
 
     defaultConfig {
-        minSdk rootProject.android.minSdk
-        targetSdk rootProject.android.targetSdk
+        minSdk 19
+        targetSdk 33
 
         consumerProguardFiles "consumer-rules.pro"
 
@@ -43,6 +43,7 @@ android {
 }
 
 dependencies {
-    api project(path: ':opencvk_base')
+    api project(path: ':opencvk_basic')
 }
+
 

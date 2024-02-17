@@ -8,15 +8,17 @@
         <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="C:/Users/mozhimen/Documents/GitHub/SwiftKit" />
-            <option value="C:/Users/mozhimen/Documents/GitHub/SwiftKit/basick" />
-            <option value="C:/Users/mozhimen/Documents/GitHub/SwiftKit/componentk" />
-            <option value="C:/Users/mozhimen/Documents/GitHub/SwiftKit/uicorek" />
-            <option value="C:/Users/mozhimen/Documents/GitHub/SwiftKit/underlayk" />
+            <option value="$USER_HOME$/Documents/GitHub/SwiftKit" />
+            <option value="$USER_HOME$/Documents/GitHub/SwiftKit/basick" />
+            <option value="$USER_HOME$/Documents/GitHub/SwiftKit/uicorek" />
+            <option value="$PROJECT_DIR$/../ACameraKit_CameraX" />
+            <option value="$PROJECT_DIR$/../ACameraKit_CameraX/camerak_camerax" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/opencvk" />
-            <option value="$PROJECT_DIR$/opencvk_base" />
+            <option value="$PROJECT_DIR$/opencvk_basic" />
+            <option value="$PROJECT_DIR$/../AUICoreKit" />
+            <option value="$PROJECT_DIR$/../AUICoreKit/viewk" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
