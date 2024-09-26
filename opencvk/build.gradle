@@ -5,6 +5,7 @@ plugins {
 
 android {
     compileSdk 33
+    namespace "com.mozhimen.opencvk"
 
     defaultConfig {
         minSdk 19
@@ -43,7 +44,8 @@ android {
 }
 
 dependencies {
-    api project(path: ':opencvk_basic')
+    api project(path: ':basic')
 }
+
 
 

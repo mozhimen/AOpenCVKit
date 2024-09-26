@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="AOpenCVKit.ALibKit_Jetpack.camera" target="17" />
+      <module name="AOpenCVKit.app" target="17" />
+      <module name="AOpenCVKit.AXmlKit.basic" target="17" />
+      <module name="AOpenCVKit.AXmlKit.viewk" target="17" />
+      <module name="AOpenCVKit.basic" target="17" />
+      <module name="AOpenCVKit.opencvk" target="17" />
+      <module name="AOpenCVKit.SwiftKit.basick" target="17" />
+      <module name="AOpenCVKit.SwiftKit.mvvmk" target="17" />
+      <module name="AOpenCVKit.SwiftKit.xmlk" target="17" />
+      <module name="GitHub.AOpenCVKit.ACameraKit.camerak_camerax" target="17" />
+      <module name="GitHub.AOpenCVKit.SwiftKit.basick" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

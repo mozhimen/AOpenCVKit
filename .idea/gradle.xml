@@ -8,17 +8,24 @@
         <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$USER_HOME$/Documents/GitHub/SwiftKit" />
-            <option value="$USER_HOME$/Documents/GitHub/SwiftKit/basick" />
-            <option value="$USER_HOME$/Documents/GitHub/SwiftKit/uicorek" />
-            <option value="$PROJECT_DIR$/../ACameraKit_CameraX" />
-            <option value="$PROJECT_DIR$/../ACameraKit_CameraX/camerak_camerax" />
+            <option value="$PROJECT_DIR$/../ACameraKit" />
+            <option value="$PROJECT_DIR$/../ACameraKit/camerak_camerax" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetpack" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetpack/camera" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/basic" />
             <option value="$PROJECT_DIR$/opencvk" />
-            <option value="$PROJECT_DIR$/opencvk_basic" />
-            <option value="$PROJECT_DIR$/../AUICoreKit" />
-            <option value="$PROJECT_DIR$/../AUICoreKit/viewk" />
+            <option value="$PROJECT_DIR$/../AXmlKit" />
+            <option value="$PROJECT_DIR$/../AXmlKit/basic" />
+            <option value="$PROJECT_DIR$/../AXmlKit/viewk" />
+            <option value="$PROJECT_DIR$/../KUtilKit" />
+            <option value="$PROJECT_DIR$/../KUtilKit/utilk_android" />
+            <option value="$PROJECT_DIR$/../KUtilKit/utilk_kotlin" />
+            <option value="$PROJECT_DIR$/../SwiftKit" />
+            <option value="$PROJECT_DIR$/../SwiftKit/basick" />
+            <option value="$PROJECT_DIR$/../SwiftKit/mvvmk" />
+            <option value="$PROJECT_DIR$/../SwiftKit/xmlk" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />

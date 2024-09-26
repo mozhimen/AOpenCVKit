@@ -4,14 +4,13 @@ import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.util.Log
-import com.mozhimen.basick.elemk.androidx.appcompat.bases.databinding.BaseActivityVB
-import com.mozhimen.basick.utilk.android.graphics.UtilKBitmapDeal
+import com.mozhimen.kotlin.utilk.android.graphics.UtilKBitmapDeal
+import com.mozhimen.mvvmk.bases.activity.viewbinding.BaseActivityVB
 import com.mozhimen.opencvk.libs.OpenCVKLib
 import org.opencv.android.Utils
 import org.opencv.core.CvType
 import org.opencv.core.Mat
 import org.opencv.imgproc.Imgproc
-import com.mozhimen.opencvk.test.R
 import com.mozhimen.opencvk.test.databinding.ActivityDemoBinding
 
 class DemoActivity : BaseActivityVB<ActivityDemoBinding>() {

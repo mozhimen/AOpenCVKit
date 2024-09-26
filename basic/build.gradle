@@ -3,7 +3,8 @@ plugins {
 }
 
 android {
-    compileSdk 33
+    compileSdk 34
+    namespace "org.opencv"
 
     defaultConfig {
         minSdk 19
@@ -23,6 +24,13 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-
+    buildFeatures{
+        buildConfig = true
+        aidl = true
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
     ndkVersion "23.0.7196353"
 }

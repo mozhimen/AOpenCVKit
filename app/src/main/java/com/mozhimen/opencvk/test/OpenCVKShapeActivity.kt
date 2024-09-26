@@ -5,24 +5,24 @@ import android.graphics.Bitmap
 import android.graphics.ImageFormat
 import android.os.Bundle
 import androidx.camera.core.ImageProxy
-import com.mozhimen.basick.elemk.androidx.appcompat.bases.databinding.BaseActivityVB
-import com.mozhimen.basick.lintk.optins.OFieldCall_Close
-import com.mozhimen.basick.lintk.optins.permission.OPermission_CAMERA
-import com.mozhimen.basick.lintk.optins.use_feature.OUseFeature_HARDWARE_CAMERA
-import com.mozhimen.basick.lintk.optins.use_feature.OUseFeature_HARDWARE_CAMERA_ANY
-import com.mozhimen.basick.lintk.optins.use_feature.OUseFeature_HARDWARE_CAMERA_AUTOFOCUS
-import com.mozhimen.basick.manifestk.cons.CPermission
-import com.mozhimen.basick.manifestk.permission.ManifestKPermission
-import com.mozhimen.basick.manifestk.permission.annors.APermissionCheck
-import com.mozhimen.basick.utilk.android.app.UtilKLaunchActivity
-import com.mozhimen.basick.utilk.android.graphics.UtilKBitmapDeal
-import com.mozhimen.basick.utilk.android.graphics.applyBitmapAnyCrop
-import com.mozhimen.basick.utilk.android.view.UtilKScreen
+import com.mozhimen.kotlin.lintk.optins.OFieldCall_Close
+import com.mozhimen.kotlin.lintk.optins.permission.OPermission_CAMERA
+import com.mozhimen.kotlin.lintk.optins.use_feature.OUseFeature_HARDWARE_CAMERA
+import com.mozhimen.kotlin.lintk.optins.use_feature.OUseFeature_HARDWARE_CAMERA_ANY
+import com.mozhimen.kotlin.lintk.optins.use_feature.OUseFeature_HARDWARE_CAMERA_AUTOFOCUS
+import com.mozhimen.kotlin.utilk.android.graphics.UtilKBitmapDeal
+import com.mozhimen.kotlin.utilk.android.graphics.applyBitmapAnyCrop
 import com.mozhimen.camerak.camerax.annors.ACameraKXFacing
 import com.mozhimen.camerak.camerax.commons.ICameraXKFrameListener
 import com.mozhimen.camerak.camerax.mos.CameraKXConfig
 import com.mozhimen.camerak.camerax.utils.imageProxyJpeg2bitmapJpeg
 import com.mozhimen.camerak.camerax.utils.imageProxyYuv4208882bitmapJpeg
+import com.mozhimen.kotlin.elemk.android.cons.CPermission
+import com.mozhimen.kotlin.utilk.android.app.UtilKActivityStart
+import com.mozhimen.kotlin.utilk.wrapper.UtilKScreen
+import com.mozhimen.manifestk.permission.ManifestKPermission
+import com.mozhimen.manifestk.permission.annors.APermissionCheck
+import com.mozhimen.mvvmk.bases.activity.viewbinding.BaseActivityVB
 import com.mozhimen.opencvk.OpenCVKShape
 import com.mozhimen.opencvk.OpenCVKTrans
 import com.mozhimen.opencvk.libs.OpenCVKLib
@@ -40,7 +40,7 @@ class OpenCVKShapeActivity : BaseActivityVB<ActivityOpencvkShapeBinding>() {
             if (it) {
                 super.initData(savedInstanceState)
             } else {
-                UtilKLaunchActivity.startSettingAppDetails(this)
+                UtilKActivityStart.startSettingApplicationDetailsSettings(this)
             }
         }
     }

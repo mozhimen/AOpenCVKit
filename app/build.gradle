@@ -5,7 +5,8 @@ plugins {
 }
 
 android {
-    compileSdk 33
+    compileSdk 34
+    namespace "com.mozhimen.opencvk.test"
 
     defaultConfig {
         applicationId "com.mozhimen.opencvk.test"
@@ -37,13 +38,17 @@ android {
         pickFirst 'lib/armeabi-v7a/libc++_shared.so'
         pickFirst 'lib/arm64-v8a/libc++_shared.so'
     }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
 }
 
 dependencies {
-    implementation project(":SwiftKit:basick")
-    implementation project(":SwiftKit:uicorek")
-    implementation project(":AUICoreKit:viewk")
-    implementation project(":ACameraKit_CameraX:camerak_camerax")
+    implementation project(":SwiftKit:mvvmk")
+    implementation project(":SwiftKit:xmlk")
+    implementation project(":AXmlKit:viewk")
+    implementation project(":ACameraKit:camerak_camerax")
     implementation project(':opencvk')
 
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
