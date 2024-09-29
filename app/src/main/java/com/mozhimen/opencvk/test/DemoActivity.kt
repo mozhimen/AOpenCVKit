@@ -5,7 +5,7 @@ import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.util.Log
 import com.mozhimen.kotlin.utilk.android.graphics.UtilKBitmapDeal
-import com.mozhimen.mvvmk.bases.activity.viewbinding.BaseActivityVB
+import com.mozhimen.bindk.bases.activity.viewbinding.BaseActivityVB
 import com.mozhimen.opencvk.libs.OpenCVKLib
 import org.opencv.android.Utils
 import org.opencv.core.CvType

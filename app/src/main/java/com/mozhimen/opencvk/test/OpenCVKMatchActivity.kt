@@ -24,7 +24,7 @@ import com.mozhimen.kotlin.utilk.wrapper.UtilKRes
 import com.mozhimen.kotlin.utilk.wrapper.UtilKScreen
 import com.mozhimen.manifestk.permission.ManifestKPermission
 import com.mozhimen.manifestk.permission.annors.APermissionCheck
-import com.mozhimen.mvvmk.bases.activity.viewbinding.BaseActivityVB
+import com.mozhimen.bindk.bases.activity.viewbinding.BaseActivityVB
 import com.mozhimen.opencvk.OpenCVKMatch
 import com.mozhimen.opencvk.OpenCVKTrans
 import com.mozhimen.opencvk.exts.setMat

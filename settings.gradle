@@ -31,7 +31,7 @@ include ':SwiftKit'
 project(':SwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\SwiftKit")
 include ':SwiftKit:basick'
 include ':SwiftKit:xmlk'
-include ':SwiftKit:mvvmk'
+include ':SwiftKit:bindk'
 //ACameraKit
 include ':ACameraKit'
 project(':ACameraKit').projectDir = new File("D:\\WorkSpace\\GitHub\\ACameraKit")

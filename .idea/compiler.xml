@@ -9,7 +9,6 @@
       <module name="AOpenCVKit.basic" target="17" />
       <module name="AOpenCVKit.opencvk" target="17" />
       <module name="AOpenCVKit.SwiftKit.basick" target="17" />
-      <module name="AOpenCVKit.SwiftKit.mvvmk" target="17" />
       <module name="AOpenCVKit.SwiftKit.xmlk" target="17" />
       <module name="GitHub.AOpenCVKit.ACameraKit.camerak_camerax" target="17" />
       <module name="GitHub.AOpenCVKit.SwiftKit.basick" target="17" />

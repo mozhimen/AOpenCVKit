@@ -45,7 +45,7 @@ android {
 }
 
 dependencies {
-    implementation project(":SwiftKit:mvvmk")
+    implementation project(":SwiftKit:bindk")
     implementation project(":SwiftKit:xmlk")
     implementation project(":AXmlKit:viewk")
     implementation project(":ACameraKit:camerak_camerax")
