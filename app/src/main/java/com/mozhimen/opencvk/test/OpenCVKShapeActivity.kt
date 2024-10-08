@@ -22,7 +22,7 @@ import com.mozhimen.kotlin.utilk.android.app.UtilKActivityStart
 import com.mozhimen.kotlin.utilk.wrapper.UtilKScreen
 import com.mozhimen.manifestk.permission.ManifestKPermission
 import com.mozhimen.manifestk.permission.annors.APermissionCheck
-import com.mozhimen.bindk.bases.activity.viewbinding.BaseActivityVB
+import com.mozhimen.bindk.bases.viewbinding.activity.BaseActivityVB
 import com.mozhimen.opencvk.OpenCVKShape
 import com.mozhimen.opencvk.OpenCVKTrans
 import com.mozhimen.opencvk.libs.OpenCVKLib
