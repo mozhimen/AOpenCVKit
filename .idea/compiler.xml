@@ -2,16 +2,32 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8">
+      <module name="AOpenCVKit.ACameraKit.camerax" target="17" />
+      <module name="AOpenCVKit.ALibKit_Google.material" target="17" />
+      <module name="AOpenCVKit.ALibKit_Jetbrains.kotlin_stdlib" target="17" />
+      <module name="AOpenCVKit.ALibKit_Jetbrains.kotlinx_coroutines" target="17" />
+      <module name="AOpenCVKit.ALibKit_Jetpack.annotation" target="17" />
       <module name="AOpenCVKit.ALibKit_Jetpack.camera" target="17" />
+      <module name="AOpenCVKit.ALibKit_Jetpack.core" target="17" />
+      <module name="AOpenCVKit.ALibKit_Jetpack.databinding" target="17" />
       <module name="AOpenCVKit.app" target="17" />
+      <module name="AOpenCVKit.ASwiftKit.basick" target="17" />
+      <module name="AOpenCVKit.ASwiftKit.bindk" target="17" />
+      <module name="AOpenCVKit.ASwiftKit.xmlk" target="17" />
       <module name="AOpenCVKit.AXmlKit.basic" target="17" />
       <module name="AOpenCVKit.AXmlKit.viewk" target="17" />
+      <module name="AOpenCVKit.AXmlKit2.viewk" target="17" />
       <module name="AOpenCVKit.basic" target="17" />
-      <module name="AOpenCVKit.opencvk" target="17" />
+      <module name="AOpenCVKit.opencv453" target="17" />
+      <module name="AOpenCVKit.opencv453.app" target="17" />
+      <module name="AOpenCVKit.opencv453.basic" target="17" />
+      <module name="AOpenCVKit.opencv453.core" target="17" />
+      <module name="AOpenCVKit.opencv453k" target="17" />
       <module name="AOpenCVKit.SwiftKit.basick" target="17" />
       <module name="AOpenCVKit.SwiftKit.bindk" target="17" />
       <module name="AOpenCVKit.SwiftKit.xmlk" target="17" />
       <module name="GitHub.AOpenCVKit.ACameraKit.camerak_camerax" target="17" />
+      <module name="GitHub.AOpenCVKit.opencv453.core" target="17" />
       <module name="GitHub.AOpenCVKit.SwiftKit.basick" target="17" />
     </bytecodeTargetLevel>
   </component>

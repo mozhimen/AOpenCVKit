@@ -19,32 +19,49 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "AOpenCVKit"
-include ':app'
+include ':opencv453:app'
+include ':opencv453:basic'
+include ':opencv453'
 include ':basic'
-include ':opencvk'
+//ALibKit_Jetbrains
+include ':ALibKit_Jetbrains'
+project(':ALibKit_Jetbrains').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Jetbrains")
+include ':ALibKit_Jetbrains:kotlin_stdlib'
+include ':ALibKit_Jetbrains:kotlinx_coroutines'
+//ALibKit_Google
+include ':ALibKit_Google'
+project(':ALibKit_Google').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Google")
+include ':ALibKit_Google:material'
 //ALibKit_Jetpack
 include ':ALibKit_Jetpack'
 project(':ALibKit_Jetpack').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Jetpack")
 include ':ALibKit_Jetpack:camera'
-//SwiftKit
-include ':SwiftKit'
-project(':SwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\SwiftKit")
-include ':SwiftKit:basick'
-include ':SwiftKit:xmlk'
-include ':SwiftKit:bindk'
+include ':ALibKit_Jetpack:databinding'
+include ':ALibKit_Jetpack:core'
+include ':ALibKit_Jetpack:annotation'
+//ASwiftKit
+include ':ASwiftKit'
+project(':ASwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\ASwiftKit")
+include ':ASwiftKit:basick'
+include ':ASwiftKit:xmlk'
+include ':ASwiftKit:bindk'
 //ACameraKit
 include ':ACameraKit'
 project(':ACameraKit').projectDir = new File("D:\\WorkSpace\\GitHub\\ACameraKit")
-include ':ACameraKit:camerak_camerax'
+include ':ACameraKit:camerax'
 //AXmlKit
 include ':AXmlKit'
 project(':AXmlKit').projectDir = new File("D:\\WorkSpace\\GitHub\\AXmlKit")
 include ':AXmlKit:viewk'
+//AXmlKit2
+include ':AXmlKit2'
+project(':AXmlKit2').projectDir = new File("D:\\WorkSpace\\GitHub\\AXmlKit2")
+include ':AXmlKit2:viewk'
 //KUtilKit
 include ':KUtilKit'
 project(':KUtilKit').projectDir = new File("D:\\WorkSpace\\GitHub\\KUtilKit")
-include ':KUtilKit:utilk_android'
-include ':KUtilKit:utilk_kotlin'
+include ':KUtilKit:android'
+include ':KUtilKit:kotlin'
 //AXmlKit
 include ':AXmlKit'
 project(':AXmlKit').projectDir = new File("D:\\WorkSpace\\GitHub\\AXmlKit")

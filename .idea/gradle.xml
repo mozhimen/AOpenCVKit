@@ -10,23 +10,34 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/../ACameraKit" />
-            <option value="$PROJECT_DIR$/../ACameraKit/camerak_camerax" />
+            <option value="$PROJECT_DIR$/../ACameraKit/camerax" />
+            <option value="$PROJECT_DIR$/../ALibKit_Google" />
+            <option value="$PROJECT_DIR$/../ALibKit_Google/material" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetbrains" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetbrains/kotlin_stdlib" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetbrains/kotlinx_coroutines" />
             <option value="$PROJECT_DIR$/../ALibKit_Jetpack" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetpack/annotation" />
             <option value="$PROJECT_DIR$/../ALibKit_Jetpack/camera" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetpack/core" />
+            <option value="$PROJECT_DIR$/../ALibKit_Jetpack/databinding" />
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/basic" />
-            <option value="$PROJECT_DIR$/opencvk" />
+            <option value="$PROJECT_DIR$/opencv453" />
+            <option value="$PROJECT_DIR$/opencv453/app" />
+            <option value="$PROJECT_DIR$/opencv453/basic" />
+            <option value="$PROJECT_DIR$/../ASwiftKit" />
+            <option value="$PROJECT_DIR$/../ASwiftKit/basick" />
+            <option value="$PROJECT_DIR$/../ASwiftKit/bindk" />
+            <option value="$PROJECT_DIR$/../ASwiftKit/xmlk" />
             <option value="$PROJECT_DIR$/../AXmlKit" />
             <option value="$PROJECT_DIR$/../AXmlKit/basic" />
             <option value="$PROJECT_DIR$/../AXmlKit/viewk" />
+            <option value="$PROJECT_DIR$/../AXmlKit2" />
+            <option value="$PROJECT_DIR$/../AXmlKit2/viewk" />
             <option value="$PROJECT_DIR$/../KUtilKit" />
-            <option value="$PROJECT_DIR$/../KUtilKit/utilk_android" />
-            <option value="$PROJECT_DIR$/../KUtilKit/utilk_kotlin" />
-            <option value="$PROJECT_DIR$/../SwiftKit" />
-            <option value="$PROJECT_DIR$/../SwiftKit/basick" />
-            <option value="$PROJECT_DIR$/../SwiftKit/bindk" />
-            <option value="$PROJECT_DIR$/../SwiftKit/xmlk" />
+            <option value="$PROJECT_DIR$/../KUtilKit/android" />
+            <option value="$PROJECT_DIR$/../KUtilKit/kotlin" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
